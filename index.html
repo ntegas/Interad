@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="Interad.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/94e05923be.js" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<!--Header*******-->
+<section class="header">
+    <div class="header__inner">
+        <img class="head__image" src="images/cloud.png" alt="">
+        <div class="head__text">Hi, I'm <span class="bold">Exercises</span>, another fine <br> little freebie from <span class="text__underline">iNTERAD.gr</span></div>
+        <div class="head__subtext">Μια μικρη ασκηση για αναπτυξη CCS3</div>
+        <a class="head__btn" href="#sec__sec">δημιουργησε</a>
+    </div>
+</section>
+
+<!--Second section********-->
+
+<section class="section" id="sec__sec">
+    <div class="container">
+       <div class="section__inner">
+           <div class="section__block">
+               <div class="section__title">Lorem ipsum dolor sit amet, consectetur adipisicing </div>
+               <div class="section__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam cum, numquam dolores dignissimos libero porro illo, vitae nobis eos, dicta dolor corrupti distinctio veniam voluptates harum ut, optio soluta itaque.</div>
+           </div>
+           <div class="section__block">
+           <img class="section__img" onclick="openModal()" src="images/pic01.jpg" alt="">
+
+
+           </div>
+       </div>
+    </div>
+    <div class="modal" onclick="closeModal()" id="openMod">
+        <div class="modal__inner">
+        <img class="modal__image"  src="images/pic01.jpg" onclick="closeModal()"  alt="">
+
+        </div>
+    </div>
+</section>
+
+<!--GRAY SECTION********-->
+
+
+    <div class="gray__section">
+       <div class="container">
+       <div class="gray__inner">
+        <div class="gray__block__logo">
+            <div class="gray__colom">
+
+                <div class="colom__item">
+                    <i class="fas fa-code logo"></i>
+                </div>
+
+                <div class="colom__item">
+                   <i class="fas fa-bolt logo"></i>
+                </div>
+
+            </div>
+
+            <div class="gray__colom">
+
+                <div class="colom__item">
+                    <i class="fas fa-camera-retro logo"></i>
+                </div>
+
+                <div class="colom__item">
+                   <i class="fas fa-cog logo"></i>
+                </div>
+
+            </div>
+
+            <div class="gray__colom">
+
+                <div class="colom__item">
+                    <i class="fas fa-desktop logo"></i>
+                </div>
+
+                <div class="colom__item">
+                   <i class="far fa-calendar-alt logo"></i>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="gray__block__text">
+            <div class="section__title__white">Lorem ipsum dolor sit amet, consectetur adipisicing</div>
+            <div class="section__text__white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi maxime asperiores, eos itaque, dolorum eaque labore, tenetur nisi, blanditiis quam quasi! Ut, quia blanditiis dolor atque repellendus laudantium, placeat repudiandae.</div>
+            <div class="section__text__white">Nostrum accusantium eligendi voluptas obcaecati, in soluta perferendis assumenda laboriosam pariatur eius quibusdam magnam aspernatur, autem odit porro ducimus dolorem corporis laborum facilis alias molestias. Quo aut est, praesentium mollitia.</div>
+            <div class="section__text__white">Mollitia illum ad doloremque voluptate, amet, ab iure tempore earum debitis magni voluptates. Necessitatibus neque animi ab! Ipsam, fuga consequuntur aliquam ipsum rerum deserunt voluptatum inventore, fugit. Blanditiis, nihil saepe!</div>
+        </div>
+        </div>
+    </div>
+</div>
+
+<!--TRIPLE SECTION*****-->
+
+<section class="section__triple section">
+    <div class="container">
+        <div class="triple__inner">
+
+            <div class="triple__title">Adipising amet consequat</div>
+            <div class="triple__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+
+            <div class="triple__blocks">
+                <div class="block__item">
+                    <img class="block__image" src="images/pic02.jpg" alt="">
+                    <div class="block__title">Magna feugiat lorem</div>
+                    <div class="block__text">Nostrum accusantium eligendi voluptas obcaecati, in soluta perferendis assumenda laboriosam pariatur eius quibusdam magnam aspernatur</div>
+                    <a href="#" class="block__btn"> more</a>
+                </div>
+                <div class="block__item">
+                    <img class="block__image" src="images/pic02.jpg" alt="">
+                    <div class="block__title">Magna feugiat lorem</div>
+                    <div class="block__text">Nostrum accusantium eligendi voluptas obcaecati, in soluta perferendis assumenda laboriosam pariatur eius quibusdam magnam aspernatur</div>
+                    <a href="#" class="block__btn"> more</a>
+                </div>
+                <div class="block__item">
+                    <img class="block__image" src="images/pic02.jpg" alt="">
+                    <div class="block__title">Magna feugiat lorem</div>
+                    <div class="block__text">Nostrum accusantium eligendi voluptas obcaecati, in soluta perferendis assumenda laboriosam pariatur eius quibusdam magnam aspernatur</div>
+                    <a href="#" class="block__btn"> more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--sing up section ********-->
+
+<section class="singup section gray__section">
+    <div class="container">
+        <div class="singup__inner">
+            <div class="triple__title singup">Adipising amet consequat</div>
+            <div class="triple__subtitle singup">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+            <div class="btn__inner">
+            <a  href="#" class="singup__btn" onclick="openForm()" >sing up</a>
+
+<!--            POPUP FORM ********-->
+
+            <div class="form--popup" id="myForm">
+                <form action="#" class="form-container">
+                    <h1>Login</h1>
+
+                    <label for="email"></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+
+                    <label for="psw"></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <a type="submit" class="form__btn">Login</a>
+
+                    <a  href="#" id="close" class="form__btn" onclick="closeForm()">Close</a>
+                </form>
+            </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--FOOTER*******-->
+
+<section class="footer">
+    <div class="footer__inner">
+        <div class="footer__social">
+            <div class="social__item">
+                <i class="fab fa-twitter footlogo"></i>
+            </div>
+            <div class="social__item">
+                <i class="fab fa-facebook-f footlogo"></i>
+            </div>
+            <div class="social__item">
+                <i class="fab fa-instagram footlogo"></i>
+            </div>
+            <div class="social__item">
+                <i class="fab fa-github footlogo"></i>
+            </div>
+            <div class="social__item">
+                <i class="fas fa-envelope footlogo"></i>
+            </div>
+        </div>
+        <div class="footer__copyright">&#169; Untitledm <span id="year"></span></span><span class="line">|</span> Desighn: <span class="text__underline">iNTERAD.gr</span></div>
+        <div class="footer__author"></div>
+    </div>
+</section>
+
+
+
+
+
+<script>
+    let d = new Date();
+document.getElementById("year").innerHTML = d.getFullYear();
+
+function openModal() {
+    document.getElementById("openMod").style.opacity = 1;
+document.getElementById("openMod").style.display="block";
+
+    }
+    function closeModal() {
+        document.getElementById("openMod").style.opacity = 0;
+        document.getElementById("openMod").style.display="none";
+    }
+
+
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+</body>
+</html>
